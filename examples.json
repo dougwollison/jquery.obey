@@ -1,0 +1,25 @@
+[
+	{
+		type: 'func',
+		target: 'alert',
+		data: 'A message from the server'
+	},
+	{
+		type: 'query',
+		target: '#myelement',
+		data: {
+			addClass: 'new-class',
+		}
+	},
+	{
+		type: 'query',
+		target: '#myelement',
+		data: {
+			parent: null,
+			animate: [{
+				height: 'toggle',
+				opacity: 'toggle',
+			}]
+		}
+	}
+]
