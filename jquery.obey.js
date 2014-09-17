@@ -66,7 +66,7 @@ Instruction Format
 	// Default methods for instruction processing
 	Obey.methods = {
 		// Process the instruction as a function
-		function: function(instrn){
+		func: function(instrn){
 			var func = makeArray(instrn.target);
 			var args = makeArray(instrn.data);
 			
